@@ -70,6 +70,46 @@ It runs with any libc version. No other libraries than listed are needed.
 * GNU unix utilities
 * optionally Xwindow system
 
+## Installation And Running
+
+### Compiling on Linux
+1. download the source code
+2. type `tar xvfz 0verkill.tgz`
+3. enter the 0verkill directory
+4. type `configure` and `make`, binaries will be compiled
+5. type `server` to start server, or `server <port number>` to determine port number (default port is 6666)
+6. to join the game type `0verkill` or `0verkill <xsize> <ysize>` to explicitely set picture size (in characters)
+7. if you're running X type `x0verkill` or `x0verkill [-d <display>] [-f <font>]`
+8. select server address and port, your color and name
+9. to learn controls press the H key (it toggles help window, even during the game)
+10. press ENTER and enjoy!
+
+### Compiling on OS/2
+1. download and unpack sources
+2. set paths to your programs:
+3. SET HOSTTYPE=i586
+4. SET MACHTYPE=i586-pc-os2
+5. SET CONFIG_SHELL=d:/prg/gnu/bin/bash.exe
+6. SET CC=d:/prg/emx/bin/gcc.exe
+7. SET MAKE=d:/prg/emx/bin/make.exe
+8. SET EMXOPT=-h100
+9. run `configure` (or if you have X11 for OS/2 run `configure --with-x`)
+10. run make
+11. other steps are the same as in Linux version
+
+## TODO
+Here is partial list of things I'd like to do add to 0verkill:
+
+* teleports
+* better level editor
+* listing older messages in chat
+* sound
+
+## Development
+0verkill was developed on AMD K6-II/400 machine with 64MB of memory, Linux 2.2.12, 2.2.19 and 2.4.13-ac8, libc5 and libc6. It was tested on 10M ethernet network, 28.8k modem and 115200 home-made infrared link RONJA (now 10Mbit 625nm red).
+
+**Does anybody want (know how) to write reaperbots?**
+
 ## Copying
 0verkill is a free software, it can be modified and/or redistributed under terms of [GNU General Public License](https://www.gnu.org/copyleft/gpl.html).
 
