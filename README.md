@@ -1,4 +1,6 @@
 # ncurses-overkill
+<img width="500" height="157" src="https://github.com/inferno986return/ncurses-overkill/blob/master/0verkill.gif" alt=""/>
+
 Mirror of 0verkill, a game made with ncurses. Thanks to [archive.org](https://web.archive.org/web/20170105060044/artax.karlin.mff.cuni.cz/~brain/0verkill), this project can be given a GitHub home. The rest of this README has been snagged from the original site.
 
 ## What Is 0verkill
