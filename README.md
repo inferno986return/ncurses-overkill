@@ -68,3 +68,26 @@ It runs with any libc version. No other libraries than listed are needed.
 * bash
 * GNU unix utilities
 * optionally Xwindow system
+
+## Copying
+0verkill is a free software, it can be modified and/or redistributed under terms of [GNU General Public License](https://www.gnu.org/copyleft/gpl.html).
+
+## Bugs
+All fatal bugs should have been eliminated. There also shouldn't be any compilation bugs. But of course bugs appear everywhere, so if you find some, let me know.
+
+Please send bug reports, problems, ideas and comments to my address.
+
+## Authors
+* Idea: Karel Kulhavy
+* Coding: Petr Kulhavy
+* Level: Petr Kulhavy
+* Graphics: Petr Kulhavy, Karel Kulhavy, Martin Pergel
+* Female hero: Vince Weaver
+* Icon: Marwin98
+* AVI editor: Karel Kulhavy
+* Design:	Petr Kulhavy
+* Web page: Petr Kulhavy
+* OS/2 port: Mikulas Patocka
+* Windows port: Filip Konvicka
+* Second level: Martin Pergel, Petr Kulhavy
+* Smoke and special effects: Martin Pergel
